@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+body {
+
+}
+
+div {
+    margin: 0 auto;
+}
+
+
+.section-heading {
+    padding: 40px;;
+}
+
+
+#headline {
+    background-image: url(../images/tennis-court-background.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#headline h1 {
+    color: white;
+    padding-top: 150px;
+}
+
+#video {
+    padding: 50px;
+
+}
+
+#resources {
+    padding: 70px;
+
+}
+
+#pricing-model {
+    padding: 50px;
+}
+
+
+#contact-us {
+    padding: 50px;
+    background-color: white;
+}
