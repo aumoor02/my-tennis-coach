@@ -19,7 +19,7 @@ div {
 }
 
 
-#headline {
+#header {
     background-image: url(../images/tennis-court-background.jpg);
     height: 400px;
     background-position: center;
@@ -27,7 +27,7 @@ div {
     background-repeat: no-repeat;
 }
 
-#headline h1 {
+#header h1 {
     color: white;
     padding-top: 150px;
 }
