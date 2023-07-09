@@ -1,21 +1,21 @@
 * {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-
 }
 
 body {
     background-color: black;
+    margin: 0 auto;
 }
 
-div {
-    margin: 0 auto;
+.modal {
+    margin: auto;
+    text-align: start;
 }
 
 
 .section-heading {
-    padding: 40px;;
+    padding: 40px;
 }
 
 .accordion-button:enabled {
@@ -33,16 +33,19 @@ div {
 #header h1 {
     color: white;
     padding-top: 150px;
+    text-align: center;
 }
 
 #resources {
     padding: 70px;
     background-color: #F9E0BB;
+    text-align: center;
 }
 
 #pricing-model {
     padding: 150px;
     background-color: #F9E0BB;
+    text-align: center;
 }
 
 
@@ -50,4 +53,5 @@ div {
     padding: 50px;
     background-color: #C38154;
     color: white;
+    text-align: center;
 }

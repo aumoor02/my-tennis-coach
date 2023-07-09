@@ -15,7 +15,10 @@
         
         <body>
 
-            <nav class="navbar navbar-expand-sm bg-body-tertiary nav-fill">
+
+<!-- Navigation Bar -->
+
+            <nav class="navbar navbar-expand-sm bg-body-tertiary nav-fill fixed-top">
                 <div class="container-fluid">
                 <a class="navbar-brand" href="#"><i class="fa-solid fa-tennis-ball" style="color: #000;">MTC</i><i class="fa-solid fa-baseball" style="color: #000000;"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +30,7 @@
                     <a class="nav-link" href="#resources">Resources</a>
                     <a class="nav-link" href="#pricing-model">Pricing</a>
                     <a class="nav-link disabled" href="#">Community</a>
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" data-bs-toggle="modal" href="#loginModal"><i class="fa-solid fa-right-to-bracket" style="color: #000000;"></i> Login</a>
                     </div>
                 </div>
                 </div>
@@ -35,8 +38,53 @@
 
 
 
+<!-- Login Modal -->
+
+            <div class="modal fade" id="loginModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <form action="" method="post">
+                        <div class="row">
+                          <div class="mb-3 col-12">
+                            <label for="loginEmail" class="sr-only">Email Address</label>
+                            <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                          </div>
+                          <div class="mb-2 col-12">
+                            <label for="loginPassword" class="sr-only">Password</label>
+                            <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                          </div>
+                          <div class="col">
+                            <div class="form-check mb-3">
+                              <input type="checkbox" class="form-check-input">
+                              <label class="form-check-label"> Remember me</label>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row m-auto">
+                        <div class="col">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+<!-- Header -->
+
             <div id="header">
-                <h1>MY TENNIS COACHING</h1>
+                <h1>MY TENNIS COACH</h1>
             </div>
 
 
@@ -170,10 +218,25 @@
 <!-- Contact Section -->
 
             <section id="contact-us">
-                <h1>Contact Us</h1>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h2>
+                      <a class="" href="#"><i class="fa-solid fa-tennis-ball" style="color: #000;">MTC</i><i class="fa-solid fa-baseball" style="color: #000000;"></i></a>
+                    </h2>
+                    <p>Email: mytenniscoach@gmail.com</p>
+                    <p>Phone: 1(402) 867 - 5309</p>
+                    
 
-                <p>Email: mytenniscoach@gmail.com</p>
-                <p>Phone: 1(402) 867 - 5309</p>
+                  </div>
+                  <div class="col p-3">
+                    <h1>Download our App!</h1>
+                    <p>Available on the Apple and Google Play Store</p>
+                    <a href=""><i class="fa-brands fa-app-store-ios fa-2xl" style="color: #000000;"></i></a>
+                    <a href=""><i class="fa-brands fa-google-play fa-2xl" style="color: #000000;"></i></a>
+                  </div>
+                </div>
+              </div>
             </section>
 
 
