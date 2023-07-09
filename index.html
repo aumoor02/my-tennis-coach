@@ -6,10 +6,11 @@
 
         <title>My Tennis Coach</title>
 
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/12410f29ea.js" crossorigin="anonymous"></script>
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        
+       
     </head>  
         
         <body>
@@ -23,9 +24,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Resources</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Community</a>
+                    <a class="nav-link" href="#resources">Resources</a>
+                    <a class="nav-link" href="#pricing-model">Pricing</a>
+                    <a class="nav-link disabled" href="#">Community</a>
                     <a class="nav-link" href="#">Login</a>
                     </div>
                 </div>
@@ -40,8 +41,9 @@
 
 
 
+<!-- Resources Cards Section -->
 
-            <div class="container" id="resources">
+            <div class="container-fluid" id="resources">
                 <div class="section-heading">
                     <h2>How to Become the Best You on the Court</h2>
                     <h3>Our Resources</h3>
@@ -82,17 +84,90 @@
 
 
 
+<!-- Pricing Model Accordion -->
+
             <section id="pricing-model">
-                <h1>Pricing Model</h1>
-
-                <ul>
-                    <li>Free: Get access to our Community and Equipment Sections.</li>
-                    <li>$5 per month: Get access to all of our MTC resources.</li>
-                    <li>$50 per year: Get access to all of our MTC resources year-round.</li>
-                </ul>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h2>Pricing Model</h2>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tier 1: Free
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Get access to our Community and Equipment Sections.</strong> 
+                            <p>
+                              With our free tier, customers will communicate with tennis enthusiasts from all over the world. Tennis players and coaches will have access to
+                              equipment specs and reviews, a growing community of like-minded individuals where they can discuss tennis topics, and access to our local and regional
+                              leagues!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Tier 2: $5 Per Month
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Get access to all of our MTC resources.</strong> 
+                            <p>
+                              Tennis athletes and coaches will not only have access to our Community and Equipment sections, but they will also gain access to our Resources section.
+                              Here, tennis coaches and athletes will learn the fundamental aspects of the various tennis strokes, progressions, and a variety of drills to challenge
+                              players to grow.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Tier 3: $50 Per Year
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Get access to all of our MTC resources year-round.</strong>
+                            <p>
+                              By enrolling in our Tier 3 program, players will obtain all the same resources as Tier 2, but at a discount.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Tier 4: $50 Per Month / $500 Per year
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Get access to all of our MTC resources year-round. Plus, have access to our online coaches.</strong>
+                            <p>
+                              Tennis athletes can obtain our Ultimate Package by enrolling in this tier. Athletes can send in videos of their strokes, and the tennis coaches here 
+                              at My Tennis Coach will perform a video analysis. Our coaches will then pinpoint the flaws in your technique and give you step-by-step guidance on how 
+                              to fix those flaws.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
+            
 
 
+
+<!-- Contact Section -->
 
             <section id="contact-us">
                 <h1>Contact Us</h1>

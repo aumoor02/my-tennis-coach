@@ -6,7 +6,7 @@
 }
 
 body {
-
+    background-color: black;
 }
 
 div {
@@ -18,6 +18,9 @@ div {
     padding: 40px;;
 }
 
+.accordion-button:enabled {
+    background-color: #FFC26F;
+}
 
 #header {
     background-image: url(../images/tennis-court-background.jpg);
@@ -32,22 +35,19 @@ div {
     padding-top: 150px;
 }
 
-#video {
-    padding: 50px;
-
-}
-
 #resources {
     padding: 70px;
-
+    background-color: #F9E0BB;
 }
 
 #pricing-model {
-    padding: 50px;
+    padding: 150px;
+    background-color: #F9E0BB;
 }
 
 
 #contact-us {
     padding: 50px;
-    background-color: white;
+    background-color: #C38154;
+    color: white;
 }
